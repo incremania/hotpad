@@ -83,7 +83,7 @@ form button {
   margin-top: 1rem;
 }
 
-form button:hover {
+form button:hover, .sign-in-button:hover {
   border: 1px solid rgb(0, 89, 82);
   background-color: rgb(0, 89, 82);
 }
