@@ -1,0 +1,208 @@
+.get-email-div {
+  width: 288px;
+  /* height: 531px;  */
+  margin: 0 auto;
+  margin-top: 4.8rem;
+  /* margin-bottom: 5rem; */
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+.get-email-div h1, .password-h2 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.password-h2 {
+    padding-top: 9px;
+}
+
+.get-email-div h2 {
+  margin-top: 2rem;
+  margin-bottom: 50px;
+  color: rgb(110, 110, 110);
+  letter-spacing: 0.5;
+  font-size: 16px;
+}
+
+.social-div {
+  /* text-align: center; */
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form input {
+  height: 30px;
+  width: 288px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  appearance: none;
+  margin: 0px;
+  width: 100%;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  letter-spacing: 0.5px;
+  padding: 8px;
+  color: rgb(33, 42, 59);
+  height: 34px;
+  border-radius: 4px;
+  border: 1px solid rgb(148, 148, 148);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+form button {
+  display: block;
+  width: 288px;
+  height: 40px;
+  transition: all 0.15s ease-in-out 0s;
+  margin: 0px;
+  line-height: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: none;
+  letter-spacing: 0.5px;
+  user-select: none;
+  display: table-cell;
+  font-size: 16px;
+  height: 40px;
+  padding: 0px 24px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: rgb(0, 122, 112);
+  border: 1px solid rgb(0, 122, 112);
+  margin-top: 1rem;
+}
+
+form button:hover {
+  border: 1px solid rgb(0, 89, 82);
+  background-color: rgb(0, 89, 82);
+}
+
+.apple-div img,
+.facebook-div img,
+.google-div img {
+  width: 30px;
+  height: 30px;
+}
+.apple-div,
+.facebook-div,
+.google-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 224px;
+  height: 40px;
+  margin: 8px 0px;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.15s ease-in-out 0s;
+  color: #fff;
+}
+
+.social-div p {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 0%;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 700;
+  /* text-align: center;
+   */
+  margin: 0 auto;
+}
+
+.apple-div {
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  line-height: 40px;
+  margin: 9px auto;
+}
+
+.facebook-div {
+  background-color: rgb(59, 89, 152);
+  border: 2px solid rgb(59, 89, 152);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.google-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 224px;
+  height: 40px;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: rgb(103, 157, 245);
+  cursor: not-allowed;
+  transition: all 0.15s ease-in-out 0s;
+  margin: 8px auto;
+}
+
+.email-label {
+  max-width: 200px;
+}
+.email-label span {
+  text-align: left;
+  display: block;
+}
+
+.email-last-div {
+    width: 100%;
+    color: rgb(110, 110, 110);
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.email-last-div a {
+    color: rgb(110, 110, 110);
+}
+
+.go-back-link {
+    display: block;
+    color: rgb(110, 110, 110);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.go-back-link:hover {
+    text-decoration: underline;
+}
+
+.forgot {
+        cursor: pointer;
+    transition: all 0.15s ease-in-out 0s;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    font-size:16px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(0, 122, 112);
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.hide {
+    display: none;
+}

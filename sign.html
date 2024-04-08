@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/login.css" />
+    <link rel="stylesheet" href="./styles/sign-up.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-div">
+        <i class="fa fa-bars fa-light"></i>
+        <img
+          src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/hotpads-logo-with-text.min-2Wmox2P.svg"
+          alt=""
+        />
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#" class="nav-link">Apartments</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Houses</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">My Hub</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Messages</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Alerts</a></li>
+        </ul>
+      </div>
+
+      <div class="sign-in">
+        <a href="./sign-in.html">Sign in / register</a>
+      </div>
+    </nav>
+    <!-- navbar end here -->
+
+    <!-- side bar -->
+    <aside class="side-bar hidden">
+      <div class="aside-img-div">
+        <img
+          class="aside-logo"
+          src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/hotpads-logo-with-text.min-2Wmox2P.svg"
+          alt=""
+        />
+      </div>
+      <ul class="aside-items">
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/search-for-rent.min-3PO5cur.svg"
+              alt=""
+            />
+            Search for rent</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/search-for-rent-house.min-2XZbvvu.svg"
+              alt=""
+            />
+            Houses for rent</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/heart.min-3PL1S1n.svg"
+              alt=""
+            />
+            My Hub</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/mail-blue.min-2OgSzFI.svg"
+              alt=""
+            />
+            Messages</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/alert.min-wexRPFi.svg"
+              alt=""
+            />
+            Search alerts</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/post-a-listing.min-3wKOqIy.svg"
+              alt=""
+            />
+            List your rental</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/paper-pen.min-3g9qegT.svg"
+              alt=""
+            />
+            Send feedback</a
+          >
+        </li>
+        <li>
+          <a href="./sign-in.html">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/profile.min-R_sBx21.svg"
+              alt=""
+            />
+            Sign in / register</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/payments.min-3xAjdWB.svg"
+              alt=""
+            />
+            Payments</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/applications.min-2Pfo5yu.svg"
+              alt=""
+            />
+            Applications</a
+          >
+        </li>
+        <li class="li-green">
+          <a href="#">Apps</a>
+        </li>
+        <li>
+          <a href="#">iOS</a>
+        </li>
+        <li>
+          <a href="#">Android</a>
+        </li>
+        <li class="li-green">
+          <a href="#">Resources</a>
+        </li>
+        <li>
+          <a href="#">Knowledge Base</a>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- aside ends here -->
+
+    <div class="get-email-div">
+      <form action="" method="post">
+        <div class="email-div">
+          <h1>Sign in / Register</h1>
+          <p style="margin-bottom: 14px">
+            Sign in or register to keep track of your favorite listings and
+            more!
+          </p>
+
+          <label for="email" class="email-label">
+            <span
+              style="
+                display: inline;
+                font-size: 12px;
+                color: rgb(110, 110, 110);
+              "
+              >*Email</span
+            >
+            <input type="text" name="email" id="email" />
+            <p class="error-email"></p>
+          </label>
+
+          <button class="continue-btn">Continue</button>
+        </div>
+
+        <!-- for password starts here -->
+        <div class="password-div hide">
+          <label for="password" class="email-label">
+            <a class="go-back-link" href="">&lt; Go back </a>
+
+            <p class="password-h2">Enter Password</p>
+            <span
+              style="
+                display: inline;
+                font-size: 12px;
+                color: rgb(110, 110, 110);
+              "
+              >*Password</span
+            >
+            <input type="text" name="password" id="password" />
+            <p class="error-password"></p>
+
+            <button>Sign in</button>
+          </label>
+          <div class="forgot">Forgot your password?</div>
+        </div>
+
+        <!-- for password ends here -->
+      </form>
+    </div>
+    <div class="social-div">
+      <div class="apple-div">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAk1BMVEUAAAD////6+/oMDAz29vbx8vGys7KRk5Cmp6WhoaHq6upTVFPe397Oz80xNDHIyciHiIYoKSfU1dRNT0x8fXtZW1gkJSRnZ2TAv76LhoUxMDEACA+WmZs4OzhSVlFzdnNCREIACAEUFRMWGhQwLSQaGBI5NzIvKiopIyEZFBROSUpzcG8MAABDQESUkZQsLykjKy3486KgAAAEWUlEQVR4nO2c7VbiMBCGaZp+hdRCaW1xwSLquoqr3v/VLQUUaAse2ilvcef55zHnOK+ZmWQmSXs9hmEYhmEYhmEYhmEYhmEYhmEYhmEYCqaR00fbQMOtrZUlJ2gzKIi0NHJctCHNyZSx4eLF9H3D+CFirgdyq8Xw0OY04srekWIIB21PE2bprhbDitAGNWAU7GkxdIy2qD5XBS1GcI02qTZ3dkGLuOBktpfHctQCbVJt+mFBixGiTapNyckMOUDbVJuFVRSj0SbVZliaGHG5i0xcmhgfbVJt5l5RizVD21SbG10Uc7nR3xsVtVzwetkbFLTYQ7RF9TH3d8tGeoW2qAFm+GPmZSlG7UixLrokW4rZrjLSv+AiZsWXGBle0rQMR4tosCRKRjuBYa6WGakD56scu5vG2XKkM4iyfifTwXXmpaGSYolUYepFs80vTDcMUteJ7zc/z2PHDrQlxXKLJq0wdaN3kMmHmHr+bpznoR7a0XoqpqPZtkQeeYEW+yOV745Qdlcwd4sGrvVoO9kbdx+llQOFtjvjbZmqsvBTz2ITP8NFqkrb5+30dGS/lh6Usv63S6VDPw+n48PCDoROrI7aeAJWBpZiDg57zskIz0RqmTvFFlIzNS6wM0isZYk7h4kptfaaA/O0jDBePkGddEzJ8tgOFmi98b837WTSGBM0Dr0U4YGy2QN98OMO0+idTMF2AAl5JgMeDKTfW3ciuNbgbanl2pQApqXnUYe/9QDT8kjuZcDaLKH2Mv2IE0O+W06+/5ut4RJrUVOclt/UIeMAS8yYOGQE0suoCxmNbAIWz8KaYt8AxVDv/j1c5U8vBtrNLB3sNwN6X8OkFoNsZbKYY2J+kptBEwC5GORuhjqbGch+Ofk6EwA3zb03YjEW8mEQ9d7MQObmiLrQtIFBk1D3/yUwaMp3rpsyxol5Iu80WcAigLqhAX3nNCEXY/yBicnoTwD9Z5SYF/IMAHS0V/oTDUPAMpp7/FZPLWCngIufdGz+RH7YlCM8TBZoIWhygieEmPJjJSIQl2deW/GzHDmenl1P6ekVHersvvZCf0Pjk/TcWnq9FjYBa8TL+cUkbYmB3AhoY93M+YsQM25HC+bZ43M7Sw0gYnKo22crUHdohm1EDSRiclqIGhdWcM7I1xoFipgc6tamGL/ixNwQVwIp8kIAcaMW/GEN0yNsBggX+uRk6WiEOSCEOlkOnaOpDjyvpeo6iU58VovI0brxXY13EkdTHfl204LA0WQHAmYNwVF6R96c5jQ+fOpE8G+4bth4Aj4CrOCjkRrodZMKDs+NpVPX81w7PZT0BPSKZjVOVU7TTn8+N9fMP7K0omSQb2jLqyhd3bbs8l2FcXGQ7uoHdb2dDwNI5Va/ic/0tqsjVJfSWIFfE18ry1JKB4NfB0fFdrgapf3J4UGdYJpEg+z24/ggc5REUTI7i0EMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAM8x/wDxgoPuJUW6/wAAAAAElFTkSuQmCC"
+          alt=""
+        />
+        <p>Sign in With Apple</p>
+      </div>
+      <div class="facebook-div">
+        <img
+          src="data:image/png;base64,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"
+          alt=""
+        />
+        <p>Sign in with Facebook</p>
+      </div>
+      <div class="google-div">
+        <img
+          src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/google_login-1Qjwz6E.svg"
+          alt=""
+        />
+
+        <p>Sign in with Google</p>
+      </div>
+    </div>
+    <div class="email-last-div">
+      <p>We value your privacy.</p>
+      <p>See our <a href="#">privacy portal and terms of use</a></p>
+      <p>Site secured by HTTPS security protocols.</p>
+    </div>
+    <!-- footer starts here -->
+    <footer class="footer-div">
+      <div class="apartment-site">
+        <ul>
+          <li><a href="#">Zillow Group Brands:</a></li>
+          <li><a href="#">Zillow</a></li>
+          <li><a href="#">Trulia</a></li>
+          <li><a href="#">StreetEasy</a></li>
+          <li><a href="#">Out East</a></li>
+        </ul>
+      </div>
+
+      <div class="apt-near-me">
+        <ul>
+          <li><a href="#">Apartments near me</a></li>
+          <li><a href="#">House near me</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Terms of use</a></li>
+          <li><a href="#">Privacy Portal</a></li>
+          <li><a href="#">Cookie Preference</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Feeds</a></li>
+          <li><a href="#">List your rental</a></li>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Send feedback</a></li>
+          <li class="information">
+            <a href="#">Do Not Sell or Share My Personal Information</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="app-images">
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/apple-badge-KhEzTCl.svg"
+                alt="app store logo"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/android-badge-2e7VFc1.svg"
+                alt="android logo"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="about-zillow">
+        <span>
+          Zillow Group is committed to ensuring digital accessibility for
+          individuals with disabilities. We are continuously working to improve
+          the accessibility of our web experience for everyone, and welcome
+          feedback and accommodation requests. If you wish to report an issue or
+          seek an accommodation please contact us at
+          <a href="#" class="support">support@hotpads.com</a>
+        </span>
+      </div>
+      <!-- about zillow ends here -->
+
+      <div class="last-div">
+        <span>
+          <a href="#">
+            Fair Housing and Equal Opportunity
+            <img
+              class="home-icon"
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/hud-1RCGkG0.svg"
+              alt="logo"
+            />
+          </a>
+        </span>
+        <br />
+        <span class="guide"> <a href="#"> Fair Housing Guide </a> </span><br />
+        <p class="year">&copy; 2024 HotPads</p>
+      </div>
+    </footer>
+
+    <script src="./js/login.js"></script>
+  </body>
+</html>
