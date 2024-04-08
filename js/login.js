@@ -106,8 +106,6 @@ form.addEventListener("submit", async (e) => {
     if (response.ok) {
       // Parse the response JSON data
       const responseData = await response.json();
-      
-      console.log("Login successful:", responseData);
       // Handle successful login, such as redirecting the user to another page
     } else {
       // If the response status is not in the 2xx range, handle the error
