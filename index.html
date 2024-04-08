@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-div">
+        <i class="fa fa-bars fa-light"></i>
+        <img
+          src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/hotpads-logo-with-text.min-2Wmox2P.svg"
+          alt=""
+        />
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#" class="nav-link">Apartments</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Houses</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">My Hub</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Messages</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Alerts</a></li>
+        </ul>
+      </div>
+
+      <div class="sign-in">
+        <a href="./sign-in.html">Sign in / register</a>
+      </div>
+    </nav>
+    <!-- navbar end here -->
+
+    <!-- side bar -->
+    <aside class="side-bar hidden">
+      <div class="aside-img-div">
+        <img
+          class="aside-logo"
+          src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/hotpads-logo-with-text.min-2Wmox2P.svg"
+          alt=""
+        />
+      </div>
+      <ul class="aside-items">
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/search-for-rent.min-3PO5cur.svg"
+              alt=""
+            />
+            Search for rent</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/search-for-rent-house.min-2XZbvvu.svg"
+              alt=""
+            />
+            Houses for rent</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/heart.min-3PL1S1n.svg"
+              alt=""
+            />
+            My Hub</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/mail-blue.min-2OgSzFI.svg"
+              alt=""
+            />
+            Messages</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/alert.min-wexRPFi.svg"
+              alt=""
+            />
+            Search alerts</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/post-a-listing.min-3wKOqIy.svg"
+              alt=""
+            />
+            List your rental</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/paper-pen.min-3g9qegT.svg"
+              alt=""
+            />
+            Send feedback</a
+          >
+        </li>
+        <li>
+          <a href="sign-in.html">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/profile.min-R_sBx21.svg"
+              alt=""
+            />
+            Sign in / register
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/payments.min-3xAjdWB.svg"
+              alt=""
+            />
+            Payments</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/applications.min-2Pfo5yu.svg"
+              alt=""
+            />
+            Applications</a
+          >
+        </li>
+        <li class="li-green">
+          <a href="#">Apps</a>
+        </li>
+        <li>
+          <a href="#">iOS</a>
+        </li>
+        <li>
+          <a href="#">Android</a>
+        </li>
+        <li class="li-green">
+          <a href="#">Resources</a>
+        </li>
+        <li>
+          <a href="#">Knowledge Base</a>
+        </li>
+      </ul>
+    </aside>
+
+    <main>
+      <!-- the first div  -->
+      <div class="search-div">
+        <h1>Find the right apartment for you.</h1>
+        <h2>Search millions of apartments and houses with HotPads.</h2>
+        <div class="input-div">
+          <input
+            type="text"
+            name="find"
+            id="find"
+            placeholder="Find apartment in..."
+          />
+          <div class="filter">
+            <select name="select" id="select">
+              <option value="">Any price</option>
+            </select>
+            <select name="select" id="select">
+              <option value="">All beds</option>
+            </select>
+          </div>
+          <button class="search-btn">Search</button>
+        </div>
+      </div>
+      <!-- the first div ends here -->
+
+      <!-- the second div starts here -->
+      <!-- animation -->
+      <div class="animation-div">
+        <div class="image-plus-animation">
+          <!-- <div class="animation">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 3840 920"
+              width="3840"
+              height="920"
+              preserveAspectRatio="xMidYMid meet"
+              style="
+                width: 100%;
+                height: 100%;
+                transform: translate3d(0px, 0px, 0px);
+              "
+            >
+              <defs>
+                <clipPath id="__lottie_element_2">
+                  <rect width="3840" height="920" x="0" y="0"></rect>
+                </clipPath>
+              </defs>
+              <g clip-path="url(#__lottie_element_2)">
+                <g
+                  transform="matrix(1.0990276336669922,-0.04624216631054878,0.04624216631054878,1.0990276336669922,2901.527099609375,180.0980224609375)"
+                  opacity="1"
+                  style="display: block"
+                >
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,125.08200073242188,38.6870002746582)"
+                  >
+                    <path
+                      fill="rgb(236,95,65)"
+                      fill-opacity="1"
+                      d=" M-10.916999816894531,-6.120999813079834 C-10.916999816894531,-6.120999813079834 4.583000183105469,14.04699993133545 4.583000183105469,14.04699993133545 C9.572999954223633,6.684000015258789 13.595999717712402,4.35099983215332 13.838000297546387,0.8790000081062317 C14.097999572753906,-2.8499999046325684 15.447999954223633,-6.7220001220703125 13.187999725341797,-9.083000183105469 C9.777000427246094,-12.647000312805176 -1.4490000009536743,-14.045999526977539 -5.916999816894531,-11.45300006866455 C-8.470000267028809,-9.972000122070312 -15.447999954223633,-12.701000213623047 -12.75,-8.95300006866455 C-12.75,-8.95300006866455 -10.916999816894531,-6.120999813079834 -10.916999816894531,-6.120999813079834z"
+                    ></path>
+                  </g>
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,125.11000061035156,73.22200012207031)"
+                  >
+                    <path
+                      fill="rgb(236,95,65)"
+                      fill-opacity="1"
+                      d=" M-10.916999816894531,6.119999885559082 C-10.916999816894531,6.119999885559082 4.583000183105469,-14.04699993133545 4.583000183105469,-14.04699993133545 C9.571999549865723,-6.684000015258789 13.595999717712402,-4.353000164031982 13.836999893188477,-0.8799999952316284 C14.097999572753906,2.8489999771118164 15.447999954223633,6.7220001220703125 13.187999725341797,9.083000183105469 C9.777000427246094,12.645999908447266 -1.4490000009536743,14.045999526977539 -5.916999816894531,11.45300006866455 C-8.470000267028809,9.972000122070312 -15.447999954223633,12.701000213623047 -12.75100040435791,8.95300006866455 C-12.75100040435791,8.95300006866455 -10.916999816894531,6.119999885559082 -10.916999816894531,6.119999885559082z"
+                    ></path>
+                  </g>
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,69.89299774169922,55.555999755859375)"
+                  >
+                    <path
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      fill-opacity="0"
+                      stroke-miterlimit="10"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="4"
+                      d=" M59.89400100708008,0.18799999356269836 C45.257999420166016,-27.268999099731445 23.72100067138672,-45.36899948120117 -4.045000076293945,-45.457000732421875 C-35.400001525878906,-45.555999755859375 -59.89400100708008,-21.336999893188477 -59.31700134277344,1.7619999647140503 C-59.21699905395508,5.735000133514404 -58.38199996948242,9.642999649047852 -56.9119987487793,13.38700008392334 C-49.85300064086914,31.35300064086914 -28.155000686645508,45.555999755859375 -2.859999895095825,45.095001220703125 C38.99700164794922,44.33100128173828 57.98400115966797,3.3489999771118164 59.89400100708008,0.18799999356269836z"
+                    ></path>
+                  </g>
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,84.95500183105469,40.209999084472656)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="4"
+                      d=" M-57.85300064086914,4.809000015258789 C-39.44499969482422,-11.605999946594238 -25.118999481201172,-11.732000350952148 -14.081999778747559,-11.746000289916992 C18.656999588012695,-11.788999557495117 44.62200164794922,15.180999755859375 44.62200164794922,15.180999755859375 C57.7130012512207,-0.6869999766349792 57.85300064086914,-7.323999881744385 51.66299819946289,-12.095999717712402 C47.6619987487793,-15.180000305175781 35.599998474121094,-14.640999794006348 24.613000869750977,-13.145000457763672"
+                    ></path>
+                  </g>
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,16.525999069213867,57.367000579833984)"
+                  >
+                    <path
+                      fill="rgb(236,95,65)"
+                      fill-opacity="1"
+                      d=" M-2.7739999294281006,-15.767000198364258 C-1.6169999837875366,-14.86400032043457 4.895999908447266,-9.607999801635742 5.867000102996826,-0.23999999463558197 C6.75600004196167,8.345000267028809 -0.6340000033378601,15.767000198364258 -0.6340000033378601,15.767000198364258 C-0.6340000033378601,15.767000198364258 -5.051000118255615,8.593000411987305 -5.948999881744385,-0.04800000041723251 C-6.755000114440918,-7.810999870300293 -3.930000066757202,-13.651000022888184 -2.7739999294281006,-15.767000198364258z"
+                    ></path>
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="3"
+                      d=" M-2.7739999294281006,-15.767000198364258 C-1.6169999837875366,-14.86400032043457 4.895999908447266,-9.607999801635742 5.867000102996826,-0.23999999463558197 C6.75600004196167,8.345000267028809 -0.6340000033378601,15.767000198364258 -0.6340000033378601,15.767000198364258 C-0.6340000033378601,15.767000198364258 -5.051000118255615,8.593000411987305 -5.948999881744385,-0.04800000041723251 C-6.755000114440918,-7.810999870300293 -3.930000066757202,-13.651000022888184 -2.7739999294281006,-15.767000198364258z"
+                    ></path>
+                  </g>
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,86.52899932861328,71.74099731445312)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="4"
+                      d=" M-56.27899932861328,-2.4489998817443848 C-38.59199905395508,8.934000015258789 -25.121000289916992,9.369999885559082 -14.083999633789062,9.383999824523926 C18.6560001373291,9.425999641418457 43.047000885009766,-15.180000305175781 43.047000885009766,-15.180000305175781 C56.138999938964844,0.6869999766349792 56.279998779296875,7.323999881744385 50.0890007019043,12.095999717712402 C46.0880012512207,15.180000305175781 34.0260009765625,14.640000343322754 23.038000106811523,13.144000053405762"
+                    ></path>
+                  </g>
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,69.4739990234375,116.53900146484375)"
+                  >
+                    <path
+                      fill="rgb(236,95,65)"
+                      fill-opacity="1"
+                      d=" M-22.625999450683594,-7.36299991607666 C-17.14299964904785,-6.258999824523926 -9.855999946594238,-4.559000015258789 -1.309999942779541,-5.000999927520752 C8.664999961853027,-5.517000198364258 16.844999313354492,-6.743000030517578 22.625999450683594,-8.772000312805176 C22.625999450683594,-8.772000312805176 19.57200050354004,8.772000312805176 19.57200050354004,8.772000312805176 C19.57200050354004,8.772000312805176 -17.118000030517578,8.772000312805176 -17.118000030517578,8.772000312805176 C-17.118000030517578,8.772000312805176 -22.625999450683594,-7.36299991607666 -22.625999450683594,-7.36299991607666z"
+                    ></path>
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="4"
+                      d=" M-22.625999450683594,-7.36299991607666 C-17.14299964904785,-6.258999824523926 -9.855999946594238,-4.559000015258789 -1.309999942779541,-5.000999927520752 C8.664999961853027,-5.517000198364258 16.844999313354492,-6.743000030517578 22.625999450683594,-8.772000312805176 C22.625999450683594,-8.772000312805176 19.57200050354004,8.772000312805176 19.57200050354004,8.772000312805176 C19.57200050354004,8.772000312805176 -17.118000030517578,8.772000312805176 -17.118000030517578,8.772000312805176 C-17.118000030517578,8.772000312805176 -22.625999450683594,-7.36299991607666 -22.625999450683594,-7.36299991607666z"
+                    ></path>
+                  </g>
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,47.308998107910156,103.40599822998047)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="2"
+                      d=" M-2.3420000076293945,-5.375 C-2.3420000076293945,-5.375 2.3420000076293945,5.375 2.3420000076293945,5.375"
+                    ></path>
+                  </g>
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,59.707000732421875,105.9800033569336)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="2"
+                      d=" M-1.1360000371932983,-5.318999767303467 C-1.1360000371932983,-5.318999767303467 1.1360000371932983,5.318999767303467 1.1360000371932983,5.318999767303467"
+                    ></path>
+                  </g>
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,77.76899719238281,105.03500366210938)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="2"
+                      d=" M0.871999979019165,-5.690000057220459 C0.871999979019165,-5.690000057220459 -0.871999979019165,5.690000057220459 -0.871999979019165,5.690000057220459"
+                    ></path>
+                  </g>
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,91.2979965209961,100.84500122070312)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="2"
+                      d=" M2.2939999103546143,-6.764999866485596 C2.2939999103546143,-6.764999866485596 -2.2939999103546143,6.764999866485596 -2.2939999103546143,6.764999866485596"
+                    ></path>
+                  </g>
+                </g>
+                <g
+                  transform="matrix(1.0998919010162354,-0.01541873812675476,0.01541873812675476,1.0998919010162354,588.66650390625,225.94578552246094)"
+                  opacity="1"
+                  style="display: block"
+                >
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,24.027000427246094,13.3100004196167)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="4"
+                      d=" M-14.027000427246094,1.652999997138977 C-11.954000473022461,-1.8420000076293945 -7.940999984741211,-3.309000015258789 -4.757999897003174,-2.0920000076293945 C-1.3600000143051147,-0.7929999828338623 -0.4440000057220459,2.9790000915527344 -0.36800000071525574,3.309000015258789 C0.8669999837875366,0.14100000262260437 3.9539999961853027,-1.8899999856948853 7.241000175476074,-1.7359999418258667 C10.196999549865723,-1.597000002861023 12.847000122070312,0.28700000047683716 14.027000427246094,3.0869998931884766"
+                    ></path>
+                  </g>
+                </g>
+                <g
+                  transform="matrix(1.0998919010162354,-0.01541873812675476,0.01541873812675476,1.0998919010162354,675.796630859375,347.3458557128906)"
+                  opacity="1"
+                  style="display: block"
+                >
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,26.516000747680664,18.209999084472656)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="4"
+                      d=" M-16.516000747680664,8.210000038146973 C-15.958999633789062,3.1040000915527344 -12.109999656677246,-0.6859999895095825 -7.810999870300293,-0.9520000219345093 C-3.2219998836517334,-1.2359999418258667 -0.1899999976158142,2.625 0.0689999982714653,2.9660000801086426 C-0.1679999977350235,-1.3270000219345093 2.322000026702881,-5.2789998054504395 6.184000015258789,-6.822000026702881 C9.657999992370605,-8.210000038146973 13.694000244140625,-7.429999828338623 16.516000747680664,-4.826000213623047"
+                    ></path>
+                  </g>
+                </g>
+                <g
+                  transform="matrix(1.0998919010162354,-0.01541873812675476,0.01541873812675476,1.0998919010162354,793.9514770507812,232.8647918701172)"
+                  opacity="1"
+                  style="display: block"
+                >
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,24.027000427246094,13.3100004196167)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="4"
+                      d=" M-14.027000427246094,1.6519999504089355 C-11.954000473022461,-1.8420000076293945 -7.940999984741211,-3.309999942779541 -4.757999897003174,-2.0940001010894775 C-1.3600000143051147,-0.7950000166893005 -0.4440000057220459,2.9790000915527344 -0.36800000071525574,3.309999942779541 C0.8669999837875366,0.14100000262260437 3.9549999237060547,-1.8899999856948853 7.242000102996826,-1.7369999885559082 C10.197999954223633,-1.5980000495910645 12.847000122070312,0.28700000047683716 14.027000427246094,3.0859999656677246"
+                    ></path>
+                  </g>
+                </g>
+                <g
+                  transform="matrix(1.0998919010162354,-0.01541873812675476,0.01541873812675476,1.0998919010162354,683.1414794921875,265.1567687988281)"
+                  opacity="1"
+                  style="display: block"
+                >
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,24.027000427246094,13.3100004196167)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="4"
+                      d=" M-14.027000427246094,1.6519999504089355 C-11.954000473022461,-1.8420000076293945 -7.941999912261963,-3.309999942779541 -4.758999824523926,-2.0940001010894775 C-1.3609999418258667,-0.7950000166893005 -0.4440000057220459,2.9790000915527344 -0.36800000071525574,3.309999942779541 C0.8669999837875366,0.14100000262260437 3.9539999961853027,-1.8899999856948853 7.241000175476074,-1.7369999885559082 C10.196999549865723,-1.5980000495910645 12.847000122070312,0.28700000047683716 14.027000427246094,3.0859999656677246"
+                    ></path>
+                  </g>
+                </g>
+                <g
+                  transform="matrix(1.0998919010162354,-0.01541873812675476,0.01541873812675476,1.0998919010162354,753.3794555664062,309.20465087890625)"
+                  opacity="1"
+                  style="display: block"
+                >
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,31.743000030517578,15.008999824523926)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="4"
+                      d=" M-21.743000030517578,2.861999988555908 C-18.638999938964844,-2.61299991607666 -12.470000267028809,-5.008999824523926 -7.505000114440918,-3.2219998836517334 C-2.2039999961853027,-1.3140000104904175 -0.6660000085830688,4.499000072479248 -0.5400000214576721,5.008999824523926 C1.2760000228881836,0.06499999761581421 5.99399995803833,-3.1740000247955322 11.088000297546387,-3.0360000133514404 C15.670000076293945,-2.9119999408721924 19.832000732421875,-0.07599999755620956 21.743000030517578,4.2230000495910645"
+                    ></path>
+                  </g>
+                </g>
+                <g
+                  transform="matrix(1.0998919010162354,-0.01541873812675476,0.01541873812675476,1.0998919010162354,686.4053344726562,197.8016357421875)"
+                  opacity="1"
+                  style="display: block"
+                >
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,29.768999099731445,13.803999900817871)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="4"
+                      d=" M-19.770000457763672,3.803999900817871 C-17.55900001525879,-1.2359999418258667 -12.232999801635742,-3.2009999752044678 -7.539999961853027,-2.072000026702881 C-2.5290000438690186,-0.8679999709129333 -0.5,2.0989999771118164 -0.33000001311302185,2.5329999923706055 C0.7730000019073486,-1.934000015258789 4.692999839782715,-3.196000099182129 9.321999549865723,-3.5160000324249268 C13.486000061035156,-3.803999900817871 17.566999435424805,-2.3469998836517334 19.770000457763672,1.2339999675750732"
+                    ></path>
+                  </g>
+                </g>
+                <g
+                  transform="matrix(1.0998919010162354,-0.01541873812675476,0.01541873812675476,1.0998919010162354,540.0109252929688,288.5835876464844)"
+                  opacity="1"
+                  style="display: block"
+                >
+                  <g
+                    opacity="1"
+                    transform="matrix(1,0,0,1,34,20.672000885009766)"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill-opacity="0"
+                      stroke="rgb(46,59,82)"
+                      stroke-opacity="1"
+                      stroke-width="4"
+                      d=" M-24,10.67199993133545 C-22.815000534057617,3.450000047683716 -17.04599952697754,-1.6449999809265137 -10.909000396728516,-1.6920000314712524 C-4.357999801635742,-1.7419999837875366 -0.34299999475479126,3.984999895095825 0,4.489999771118164 C-0.007000000216066837,-1.6349999904632568 3.8410000801086426,-7.066999912261963 9.454000473022461,-8.96399974822998 C14.503999710083008,-10.67199993133545 20.18600082397461,-9.25 24,-5.328000068664551"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div> -->
+          <img
+            class="house-img"
+            src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/homeHeroLargeBackground-1zF7K9i.svg"
+            alt="house img"
+          />
+        </div>
+        <div class="pause-btn-div">
+          <button class="pause-btn">pause</button>
+        </div>
+      </div>
+      <!-- animation -->
+      <!-- the second div ends here -->
+
+      <section class="cities-section">
+        <h2>Top cities</h2>
+        <div class="cities-div">
+          <ul>
+            <li><a href="#" class="city-link">San Francisco Apartments</a></li>
+            <li><a href="#" class="city-link">Chicago Apartments</a></li>
+            <li><a href="#" class="city-link">Los Angeles Apartments</a></li>
+            <li><a href="#" class="city-link">Boston Apartments</a></li>
+            <li><a href="#" class="city-link">Seattle Apartments</a></li>
+            <li><a href="#" class="city-link">Houston Apartments</a></li>
+            <li><a href="#" class="city-link">New York Apartments</a></li>
+            <li><a href="#" class="city-link">Austin Apartments</a></li>
+            <li><a href="#" class="city-link">Atlanta Apartments</a></li>
+            <li><a href="#" class="city-link">San Diego Apartments</a></li>
+            <li><a href="#" class="city-link">Las Vegas Apartments</a></li>
+            <li><a href="#" class="city-link">Dallas Apartments</a></li>
+            <li><a href="#" class="city-link">Denver Apartments</a></li>
+            <li><a href="#" class="city-link">Nashville Apartments</a></li>
+            <li><a href="#" class="city-link">San Antonio Apartments</a></li>
+            <li><a href="#" class="city-link">Philadelphia Apartments</a></li>
+            <li><a href="#" class="city-link">Miami Apartments</a></li>
+            <li><a href="#" class="city-link">Washington Apartments</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- footer starts here -->
+      <footer class="footer-div">
+        <div class="apartment-site">
+          <ul>
+            <li><a href="#">Zillow Group Brands:</a></li>
+            <li><a href="#">Zillow</a></li>
+            <li><a href="#">Trulia</a></li>
+            <li><a href="#">StreetEasy</a></li>
+            <li><a href="#">Out East</a></li>
+          </ul>
+        </div>
+
+        <div class="apt-near-me">
+          <ul>
+            <li><a href="#">Apartments near me</a></li>
+            <li><a href="#">House near me</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Privacy Portal</a></li>
+            <li><a href="#">Cookie Preference</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Feeds</a></li>
+            <li><a href="#">List your rental</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Send feedback</a></li>
+            <li class="information">
+              <a href="#">Do Not Sell or Share My Personal Information</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="app-images">
+          <ul>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/apple-badge-KhEzTCl.svg"
+                  alt="app store logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/android-badge-2e7VFc1.svg"
+                  alt="android logo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="about-zillow">
+          <span>
+            Zillow Group is committed to ensuring digital accessibility for
+            individuals with disabilities. We are continuously working to
+            improve the accessibility of our web experience for everyone, and
+            welcome feedback and accommodation requests. If you wish to report
+            an issue or seek an accommodation please contact us at
+            <a href="#" class="support">support@hotpads.com</a>
+          </span>
+        </div>
+        <!-- about zillow ends here -->
+
+        <div class="last-div">
+          <span>
+            <a href="#">
+              Fair Housing and Equal Opportunity
+              <img
+                class="home-icon"
+                src="https://nodes3cdn.hotpads.com/hotpads-web/1711736266/hud-1RCGkG0.svg"
+                alt="logo"
+              />
+            </a>
+          </span>
+          <br />
+          <span class="guide"> <a href="#"> Fair Housing Guide </a> </span
+          ><br />
+          <p class="year">&copy; 2024 HotPads</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
